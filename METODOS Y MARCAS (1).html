@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Document</title>
+</head>
+<body>
+    <form action=" http://www.miservidor.es/repite.php"method="get">
+        Repeticiones: <input name="veces"/><input type="submit"/>
+    </form>
+    <br>
+    <br>
+    <form action=" http://www.miservidor.es/repite.php"method="post">
+        Repeticiones: <input name="veces"/><input type="submit"/>
+    </form>
+    <br>
+    <form action="mailto:mate42502@gmail.com" method="post" enctype="text/plain">
+        <label for="Nombre">Nombre:</label><input type="text" id="Nombre" size="50">
+        <button class="boton" type="submit">Enviar</button>
+    </form>
+    <br>
+    <br>
+    <form>
+        <label for="Materias">Mi materia favorita:</label> <select id="Materias" size="1">
+        <option>Ninguna</option>
+        <option>Programacion II</option>
+        <option>Sistemas Operativos</option>
+        <option>Ingles</option>
+        <option>Base de Datos</option>
+    </select>
+    <input type="submit" value="Enviar"> <input type="reset" value="Borrar">
+    </form>
+    <br>
+    <br>
+    <!--<label>Casilla de verificacion</label>
+    <input type="checkbox" name="verify" checked/>
+    <br>
+    <br>-->
+    <div>
+    <form>
+    <label>Casilla de verificacion</label>
+    <input type="checkbox" name="verificar" required/>
+    <button class="boton" type="submit">Enviar</button>
+    </div>
+    <br> 
+    
+    <br>
+    <div>
+    <label>Casillas de opcion</label>
+    <input type="radio" name="opccion">
+    </div>
+    <br>
+
+    <br>
+    <textarea class="control" nombre="mensaje" id="mensaje" rows="8" readonly placeholder="introduzca un mensaje"></textarea>
+    <br>
+    <label>Buscar</label><input type="search"/>
+    <label></label>
+    </form>
+</body>
+</html>
